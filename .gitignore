@@ -1,0 +1,25 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Generated model weights and checkpoints
+*.h5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Dataset folders
+datasets/
+data/
